@@ -3,6 +3,7 @@
 Пример работы калькулятора
 
 CMD:
+
 C:\Users\пк>curl -X POST -H "Content-Type: application/json" -d "{\"num1\": 25, \"num2\": 5}" http://localhost:5000/add
 {
   "result": 30
